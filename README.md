@@ -9,9 +9,6 @@ A performance-optimized, parallel implementation of the Quicksort algorithm usin
 - [Features](#features)
 - [Installation and Usage](#installation-and-usage)
 - [Performance Insights](#performance-insights)
-- [Contribute](#contribute)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -50,4 +47,12 @@ mpicc -o mpi_qs main.c
 
 # Run the program with desired number of processes and parameters
 mpirun -np [Number of Processes] ./mpi_qs [Total Number of Integers] [Output File Name]
+```
+
+
+## Performance Insights
+
+The project utilizes the median of medians strategy for pivot selection, resulting in more balanced partitions and efficient sorting. The time metrics showcase the speed-up gained from this parallel approach.
+
+<img width="746" alt="Screenshot 2023-11-01 at 5 15 24 PM" src="https://github.com/vyom1611/Medianized-MPI-Quicksort/assets/93402393/0d911a87-e3a3-4264-ba55-b90cf6482b24">
 

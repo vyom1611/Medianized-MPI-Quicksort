@@ -37,10 +37,10 @@ Quicksort, though highly efficient in average-case scenarios, can be bottlenecke
 
 ```bash
 # Clone the repository
-git clone https://github.com/[YourUserName]/QuantumLeapQS.git
+git clone https://github.com/vyom1611/Medianized-MPI-Quicksort.git
 
 # Navigate into the directory
-cd QuantumLeapQS
+cd Medianized-MPI-Quicksort
 
 # Compile the main file
 mpicc -o mpi_qs main.c
